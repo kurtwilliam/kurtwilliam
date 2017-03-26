@@ -10,10 +10,12 @@ html{ margin:0; padding:0; font-family: 'Open Sans', sans-serif; font-size: 62.5
 body{
 	position: relative;
 	min-height: 100%;
-	padding-bottom:250px;
+	padding-bottom:100px;
+	overflow-x: hidden;
+	background: whitesmoke;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
 	// color:#D2D2D2;
 	font-weight: 300;
 	margin:0;
@@ -21,13 +23,15 @@ h1,h2,h3,h4{
 	font-family: 'Abel', sans-serif;
 }
 
-h1{ font-size: 4rem; letter-spacing: 14px; }
+h1{ font-size: 4rem; }
 h2{ font-size: 3.5rem; }
 h3{ font-size: 3rem; display: block; text-align:left; border-bottom: 1px solid black; margin:40px 0; width:calc(100% - 80px);}
 h4{ font-size: 2.6rem; }
+h5{ font-size: 1.62rem; }
 p{ font-size: 1.6rem; font-weight:400; margin:0; padding:0; }
 
 $main: #2D2D2D;
 $main2: rgb(67,67,67);
+$main3: rgb(29,29,29);
 $accent: #9C9C9C;
 $accent2: rgb(230,230,230);

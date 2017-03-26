@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Boiler Plate</title>
+	<title>Kurt William</title>
 	<link rel="stylesheet" type="text/css" href="public/styles/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Abel|Chewy|Lato:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Abel|Chewy|Lato:700|Eczar:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="clearfix">
 	<header>
 		<nav>
 			<img>
 			<ul>
-				<li><a href="#portfolio">portfolio</a></li>
-				<li><a href="#about">about</a></li>
 				<li><a href="#contact">contact</a></li>
+				<li><a href="#portfolio">Selected Works</a></li>
+				<li><a href="#about">about</a></li>
 			</ul>
 		</nav>
 		<div class="hero clearfix">
@@ -32,90 +33,114 @@
 	</header><!-- /header -->
 	<section class="main">
 		<section class="contact" id="contact">
-			<!-- <div class="contactInner"> -->
-				<h3>What do you need?</h3>
-			<!-- </div> -->
+			<h3>How can I help?</h3>
+			<h4>k.w.schneid@gmail.com</h4>
+			<form action="https://formspree.io/k.w.schneid@gmail.com" 
+			method="POST" class="clearfix">
+				<div class="div">
+					<div class="cDiv cDivT">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" required>
+					</div>
+					<div class="cDiv cDivT">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="_replyto" required>
+					</div>
+				</div>
+				<div class="div">
+					<div class="cDiv cDivR">
+						<input type="radio" id="webDev" name="contact">
+						<label for="webDev">My business needs a great Front End Developer.</label>
+					</div>
+					<div class="cDiv cDivR">
+						<input type="radio" id="website" name="contact">
+						<label for="website">I need a website!</label>
+					</div>
+				</div>
+				<div class="divS"> 
+					<textarea name="message" placeholder="Enter the email body here."></textarea>
+				<input type="submit" value="Send" class="submit">
+				</div>
+			</form>
 		</section><!-- /.contact -->
 
 		<section class="wrapper clearfix">
 			<div class="portfolio" id="portfolio">
-				<h3>Portfolio</h3>
+				<h3>Selected Works</h3>
 				<div class="piece piece1 clearfix">
-					<a class="pPic pPic1"><p>Word Sandwiches</p></a>
+					<a class="pPic pPic1" href="http://kurtwilliam.com/word-sandwiches"><p>Word Sandwiches</p></a>
 					<div class="pText">
-						<h4></h4>
-						<p></p>
-						<button>Project</button>
-						<button>GitHub</button>
+						<h4>Word Sandwiches</h4>
+						<h5>JavaScript, HTML5, CSS3, React, Git, Gulp, API</h5>
+						<p>My favourite project! A word game that pulls words from the Oxford Dictionary API, scrambles them, then puts them inside one another. I will be adding more functionality over the next few months.</p>
+						<div class="pButton">
+							<a href="http://kurtwilliam.com/word-sandwiches">Project</a>
+							<a href="">GitHub</a>
+						</div>
 					</div>
 				</div>
 				<div class="piece piece2 clearfix">
-					<a class="pPic pPic2"></a>
-					<div class="pText">
+					<a class="pPic pPic2" href="http://kurtwilliam.com/"></a>
+					<div class="pText pText2">
 						<h4></h4>
+						<h5>JavaScript, HTML5, CSS3, Git, GitHub, jQuery, FireBase, </h5>
 						<p></p>
-						<button>Project</button>
-						<button>GitHub</button>
+						<div class="pButton pButton2">
+							<a href="http://kurtwilliam.com/">Project</a>
+							<a>GitHub</a>
+						</div>
 					</div>
 				</div>
 				<div class="piece piece3 clearfix">
-					<a class="pPic pPic3"><p>New You</p></a>
+					<a class="pPic pPic3" href="http://kurtwilliam.com/new-you"><p>New You</p></a>
 					<div class="pText">
-						<h4></h4>
-						<p></p>
-						<button>Project</button>
-						<button>GitHub</button>
+						<h4>New You</h4>
+						<h5>JavaScript, HTML5, CSS3, jQuery, API</h5>
+						<p>New Identity generator for runaway criminals. Three separate Ajax calls pull API data to display and the rest of the information is randomly generated.</p>
+						<div class="pButton">
+							<a href="http://kurtwilliam.com/new-you">Project</a>
+							<a>GitHub</a>
+						</div>
 					</div>
 				</div>
 				<div class="piece piece4 clearfix">
-					<a class="pPic pPic4"><p>Modern</p></a>
-					<div class="pText">
+					<a class="pPic pPic4" href="http://kurtwilliam.com/modern"><p>Modern</p></a>
+					<div class="pText pText4">
 						<h4>Modern</h4>
-						<p>HTML5, CSS3, SCSS</p>
+						<h5>HTML5, CSS3, SCSS</h5>
 						<p>Responsive, one page site based off of a WordPress template.</p>
-						<button>Project</button>
-						<button>GitHub</button>
-					</div>
-				</div>
-				<div class="piece piece5 clearfix">
-					<a class="pPic pPic5">
-						<div>
-							<img src="assets/logo_white.png" alt="NewFoods Logo">
+						<div class="pButton pButton4">
+							<a href="http://kurtwilliam.com/modern">Project</a>
+							<a>GitHub</a>
 						</div>
-					</a>
-					<div class="pText">
-						<h4>New Foods</h4>
-						<p>HTML5, CSS3</p>
-						<p>My first website! Basic, 3 page static site based off of a WordPress Template.</p>
-						<button>Project</button>
-						<button>GitHub</button>
 					</div>
 				</div>
 			</div><!-- /.portfolio -->
 
-			<!-- <hr> -->
-
 			<div class="about">
 				<h3 id="about">About</h3>
-				<p>Kurt William is a Front End Developer based out of Toronto, Ontario. With both real-world experience and a Bachelor's in Accounting he is an interesting mix of business and technology. He is constantly seeking a daily challenge and to push his skill set to its limit.</p>
+				<p>Kurt is a Front End Developer based out of Toronto, Ontario. With both real-world experience and a Bachelor's of Accounting he is an interesting mix of business and technology. He is constantly seeking a daily challenge and to push his skill set to its limit.</p>
 				<div class="aboutList">
 					<h4>Languages</h4>
 					<p>JavaScript - CSS3 - HTML5</p>
 				</div>
 				<div class="aboutList">
-					<h4>Skills</h4>
-					<p>React - Git- GitHub - jQuery - Firebase - Responsive Design - MS Excel</p>
+					<h4>Skills and Tools</h4>
+					<p>React - Git- GitHub - jQuery - API - Gulp - Firebase - Responsive Design - MS Excel</p>
 				</div>
 				<div class="aboutList">
 					<h4>Interests</h4>
-					<p>Vanilla Javascript - Chatbots - WordPress</p>
+					<p>Vanilla Javascript - Chatbots - WordPress - Chinatown food - Cats</p>
 				</div>
 			</div><!-- /.about -->
 		</section>
 	</section>
 
 	<footer>
-		
+		<ul>
+			<li><a href="https://github.com/kurtwilliam"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/kurtwilliam/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+		</ul>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="/public/scripts/app.js"></script>
