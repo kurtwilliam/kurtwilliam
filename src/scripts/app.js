@@ -20,7 +20,6 @@ function scrollFix(){
 		let footerHeight = $('footer').height();
 		let contactHeight = $('.contact').height()+105;
 		let bodyW = $('body').width();
-		console.log('bodW', bodyW )
 
 		if (bodyW >= 978 ) {
 
@@ -74,6 +73,7 @@ function scrollFix(){
 					width: '100%'
 				});
 		   }
+		// If the body is skinnier than 978px put the contact form at the top
 		} else{
 			$('.contact').css({                 
 				background: '$main2',
@@ -91,6 +91,7 @@ function scrollFix(){
 	});
 }
 
+// When a link starts with an octothorp and it is clicked, scroll smoothly (over 900ms)
 function linkScroll(){
 	$('a[href^="#"]').on('click',function (e) {
 		e.preventDefault();
@@ -104,8 +105,7 @@ function linkScroll(){
 	});
 }
 
-
-// Smooth out animation on any link starting with #
+// When the document is ready, run these functions
 $(document).ready(function(){
     linkScroll();
     scrollFix();

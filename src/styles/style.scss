@@ -137,7 +137,7 @@ nav{
 			margin: 0 0 10px 0;
 		}
 		@media (max-width:978px){
-			margin-bottom: 10px;
+			margin-bottom: 20px;
 		}
 	}
 	h4{
@@ -173,7 +173,7 @@ nav{
 	.cDiv{
 		display:flex;
 		justify-content: space-between;
-		margin:15px 0;
+		margin:20px 0;
 		align-items: center;
 		text-align: left;
 		@media (max-width: 350px){
@@ -254,7 +254,7 @@ nav{
 		max-width:150px;
 	}
 	.divS{
-
+		text-align: center;
 		@media (max-width: 978px){
 			display: flex;
 			align-items: center;
@@ -335,7 +335,7 @@ nav{
 		border-radius: 10px;
 		background-color:rgb(48,93,126);
 		@media (max-width: 1020px) {
-			padding:5px;
+			padding:10px;
 			font-size: 5rem;
 		}
 	}
@@ -411,7 +411,7 @@ nav{
 	.pButton4, .pButton2{
 		justify-content: flex-end;
 		@media (max-width:630px){
-			justify-content: left;
+			justify-content: start;
 		}
 		button{
 			margin: 0 0 0 10px;
