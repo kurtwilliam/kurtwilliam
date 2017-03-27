@@ -209,37 +209,13 @@ nav{
 
 			}
 		}
+
 	}
-	// .cDivR{
-	// 	// display:flex;
-	// 	@media(max-width: 978px){
-	// 		display: flex;
-	// 		width:50%;
-	// 		// display: inline-block;
-	// 		align-items: center;
-	// 		justify-content: left;
-	// 	}
-	// 	@media (max-width: 530px){
-	// 		// display: flex;
-	// 		// flex-direction: column;
-	// 		width:100%;
-	// 		// align-items: left;
-	// 		// justify-content: 
-	// 	}
-	// 	input{
-	// 		margin-right:10px;
-	// 	}
-	// 	label{
-	// 		width:155px;
-	// 		@media (max-width: 978px){
-	// 			width:75%;
-	// 			display: inline-block;
-	// 		}
-	// 		@media (max-width: 530px){
-	// 			width:100%;
-	// 		}
-	// 	}
-	// }
+	.cDiv1{
+		@media(max-width: 530px){
+			margin-bottom: 0;
+		}
+	}
 	textarea{
 		width:100%;
 		max-width: 400px;
@@ -253,18 +229,28 @@ nav{
 		}
 	}
 	.submit{
-		// bottom:0;
 		background: whitesmoke;
-		// margin: 15px 0 0 0;
 		border:none;
 		max-width:150px;
 		padding:10px 30px;
-		// border-radius: 5px;
-		// color:white;
-		// background: $main;
-		// border:none;
 		margin:20px 0 0 0;
 		width:100px;
+		letter-spacing: 2px;
+		display:flex;
+		justify-content: center;
+		border:1px solid $main2;
+	}
+	.submit:hover{
+		background:$main2;
+		border:1px solid whitesmoke;
+		color: whitesmoke;
+	}
+	.submit:active{
+		background:$main2;
+		border:1px solid whitesmoke;
+		color: whitesmoke;
+		position:relative;
+		top:2px;
 	}
 	.divS{
 		text-align: center;
@@ -406,12 +392,26 @@ nav{
 		a{
 			text-transform: uppercase;
 			padding:10px 30px;
-			// border-radius: 5px;
 			color:white;
 			background: $main;
-			border:none;
 			margin:0 10px 0 0;
 			width:100px;
+			letter-spacing: 2px;
+			display:flex;
+			justify-content: center;
+			border:1px solid whitesmoke;
+		}
+		a:hover{
+			background:whitesmoke;
+			border:1px solid $main;
+			color: $main;
+		}
+		a:active{
+			background:whitesmoke;
+			border:1px solid $main;
+			color: $main;
+			position:relative;
+			top:2px;
 		}
 	}
 	p{
