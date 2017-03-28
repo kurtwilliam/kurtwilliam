@@ -532,6 +532,7 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	ul{
 		font-size:3rem;
 		display: flex;
@@ -541,10 +542,13 @@ footer{
 			list-style: none;
 			text-decoration: none;
 			color:$main3;
-			padding:10px;
+			padding:5px;
 		}
 		li a {
 			color:$main3;
 		}
+	}
+	p {
+		padding:5px;
 	}
 }
