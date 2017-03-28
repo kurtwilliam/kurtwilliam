@@ -204,6 +204,8 @@ nav{
 			background: whitesmoke;
 			font-size: 2rem;
 			margin: 5px 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
 			@media(max-width: 978px){
 				min-width: 175px;
 
@@ -223,6 +225,8 @@ nav{
 		border: none;
 		background: whitesmoke;
 		resize:none;
+		-moz-border-radius: 0;
+		border-radius: 0;
 		@media (max-width:978px){
 			max-width:100%;
 			height:100px;
@@ -239,6 +243,8 @@ nav{
 		display:flex;
 		justify-content: center;
 		border:1px solid $main2;
+		-moz-border-radius: 0;
+		border-radius: 0;
 	}
 	.submit:hover{
 		background:$main2;
@@ -254,6 +260,8 @@ nav{
 	}
 	.divS{
 		text-align: center;
+		-moz-border-radius: 0;
+		border-radius: 0;
 		@media (max-width: 978px){
 			display: flex;
 			align-items: center;
