@@ -1,9 +1,5 @@
 // JavaScript Media Query for Contact scroll bar
 
-$(window).resize(function(){
-	scrollFix();
-})
-
 function scrollFix(){
 	// get initial position of the element
 	let scroll = $('.contact').offset().top;
@@ -90,6 +86,10 @@ function scrollFix(){
 		}
 	});
 }
+
+$(window).on('resize', function(){
+	scrollFix();
+})
 
 // When a link starts with an octothorp and it is clicked, scroll smoothly (over 900ms)
 function linkScroll(){
