@@ -166,8 +166,6 @@ nav{
 			display: flex;
 			flex-direction: column;
 			width:100%;
-			// align-items: left;
-			// justify-content: 
 		}
 	}
 	.cDiv{
@@ -235,10 +233,10 @@ nav{
 	.submit{
 		background: whitesmoke;
 		border:none;
-		max-width:150px;
+		max-width:220px;
 		padding:10px 30px;
 		margin:20px 0 0 0;
-		width:100px;
+		width:100%;
 		letter-spacing: 2px;
 		display:flex;
 		justify-content: center;
