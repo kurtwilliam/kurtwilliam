@@ -311,11 +311,41 @@ nav{
 	}
 }
 .pPic1{
-	background: linear-gradient( to left top, navajowhite 0%, navajowhite 25%, darkgreen 25%, darkgreen 50%, orange 50%, orange 55%, indianred 55%, indianred 75%, navajowhite 75%, navajowhite 100%);
+	// background: linear-gradient( to left top, navajowhite 0%, navajowhite 25%, darkgreen 25%, darkgreen 50%, orange 50%, orange 55%, indianred 55%, indianred 75%, navajowhite 75%, navajowhite 100%);
+	position: relative;
+	overflow: hidden;
 	font-family:'Archivo Black', sans-serif;
 	color:black;
+	text-transform: uppercase;
+	.triangleLeft{
+		position:absolute;
+		z-index: -100;
+		transform:translate(-50%,0);
+		top:0;
+		left:0;
+		width: 0; 
+		height: 0; 
+		border-left: 200px solid transparent;
+		border-right: 200px solid transparent;
+		border-top: 200px solid rgba(205,92,92,0.9);
+	}
+	.triangleRight{
+		position:absolute;
+		z-index: -100;
+		transform:translate(50%,0);
+		bottom:0;
+		right:0;
+		width: 0; 
+		height: 0; 
+		border-left: 200px solid transparent;
+		border-right: 200px solid transparent;
+		border-bottom: 200px solid rgba(255,222,173,0.9);
+	}
 	p{
 		font-size: 4rem;
+		@media (max-width:400px){
+			font-size: 3rem;
+		}
 	}
 }
 .pPic2{
@@ -384,6 +414,9 @@ nav{
 	text-align: left;
 	@media (max-width:630px){
 		width:100%;
+	}
+	@media (max-width:300px){
+		padding:10px;
 	}
 	h4{
 		margin: 0 0 10px 0;
