@@ -50,6 +50,9 @@ nav{
 	align-items: center;
 	.hLeft{
 		position:absolute;
+		top: 10vh;
+		left: 7.5vw;
+		// transform: translate(-50%,-50%);
 		width:85vw;
 		height:80vh;
 		background-color: $accent;
@@ -69,13 +72,13 @@ nav{
 		float:left;
 		h2{
 			font-size: 1.6rem;
-			color:white;
+			color:whitesmoke;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: 300;
 			
 		}
 		h1{
-			color:white;
+			color:whitesmoke;
 			letter-spacing: 7px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: 400;
@@ -91,12 +94,11 @@ nav{
 	.hRight{
 		float:left;
 		position: absolute;
+		top:0;
 		right:0;
 		width:50vw;
 		height:100vh;
 		background: url('../../assets/indexKurtTall.jpg') no-repeat;
-		// background-size: 150%;
-		// background-position: 50% 40%;
 		background-size: 700px;
 		background-color: $main3;
 		background-position: 60% 100%;
@@ -521,8 +523,7 @@ hr{
 }
 
 footer{
-	height:100px;
-	// padding:20px;
+	height:auto;
 	width:100%;
 	background-color: $accent;
 	position:absolute;
@@ -533,6 +534,7 @@ footer{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	padding:5px;
 	ul{
 		display: flex;
 		margin:0;
@@ -555,7 +557,6 @@ footer{
 	}
 	p {
 		font-size: 1.2rem;
-		padding: 0 0 5px 0;
 		strong a{
 			text-decoration: none;
 			color:$main3;
