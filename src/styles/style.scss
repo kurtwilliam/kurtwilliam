@@ -534,21 +534,31 @@ footer{
 	align-items: center;
 	flex-direction: column;
 	ul{
-		font-size:3rem;
 		display: flex;
 		margin:0;
 		padding:0;
 		li {
+			display:inline-block;
+			font-size:3rem;
 			list-style: none;
 			text-decoration: none;
 			color:$main3;
-			padding:5px;
+			padding:0 5px;
 		}
 		li a {
 			color:$main3;
 		}
 	}
+	h4 {
+		margin:5px;
+		color:$main3;
+	}
 	p {
-		padding:5px;
+		font-size: 1.2rem;
+		padding: 0 0 5px 0;
+		strong a{
+			text-decoration: none;
+			color:$main3;
+		}
 	}
 }
