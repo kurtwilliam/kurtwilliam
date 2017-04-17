@@ -396,19 +396,13 @@ nav{
 	}
 }
 .pPic5{
-	background: url('../../assets/hero_01.jpg');
+	background: rgb(29, 30, 31);
 	background-size: cover;
 	padding:0;
-	div{
-		background-color: rgba(0,0,0,0.5);
-		width:100%;
-		height:100%;
-		display:flex;
-		align-items: center;
-		justify-content: center;
-		img{
-			width:80%; 
-		}
+	p {
+		color: white;
+		font-family: "Abril Fatface", sans-serif;
+		font-size: 7.2rem;
 	}
 }
 .pText{
@@ -545,7 +539,7 @@ footer{
 			list-style: none;
 			text-decoration: none;
 			color:$main3;
-			padding:0 5px;
+			padding:0 10px;
 		}
 		li a {
 			color:$main3;
