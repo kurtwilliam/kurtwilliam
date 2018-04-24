@@ -309,6 +309,17 @@ nav{
 	}
 }
 .pPic1{
+	float:right;
+	background: url('../../assets/AestheticDimension.jpg');
+	background-size: cover;
+	padding:0;
+	p {
+		color: white;
+		font-family: "Abril Fatface", sans-serif;
+		font-size: 7.2rem;
+	}
+}
+.pPic2{
 	position: relative;
 	overflow: hidden;
 	font-family:'Archivo Black', sans-serif;
@@ -345,7 +356,7 @@ nav{
 		}
 	}
 }
-.pPic2{
+.pPic3{
 	float:right;
 	font-family: 'Oswald', sans-serif;
 	background:linear-gradient( to bottom right, #F0C436, #D8C6C6, #7D9BA6);
@@ -354,7 +365,7 @@ nav{
 		font-size: 6rem;
 	}
 }
-.pPic3{
+.pPic4{
 	font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
 	background: repeating-linear-gradient(
 	  45deg,
@@ -375,7 +386,7 @@ nav{
 		}
 	}
 }
-.pPic4{
+.pPic5{
 	float:right;
 	background: linear-gradient(to bottom right, rgb(209,33,205), rgb(68,74,238));
 	p{
@@ -384,7 +395,7 @@ nav{
 		font-size: 6rem;
 	}
 }
-.pPic5{
+.pPic6{
 	background: rgb(29, 30, 31);
 	background-size: cover;
 	padding:0;
@@ -450,12 +461,12 @@ nav{
 	}
 }
 
-.pText2, .pText4 {
+.pText1, .pText3, .pText5 {
 	text-align: right;
 	@media (max-width:630px){
 		text-align: left;
 	}
-	.pButton4, .pButton2{
+	.pButton3, .pButton1, .pText5{
 		justify-content: flex-end;
 		@media (max-width:630px){
 			justify-content: start;
